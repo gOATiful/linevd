@@ -3,7 +3,7 @@ From:pytorch/pytorch:1.9.0-cuda10.2-cudnn7-runtime
 
 %files
     cli.sh /cli.sh
-    requirements.txt /requirements.txt
+    old_requirements.txt /requirements.txt
 
 %environment
     export SINGULARITY=true

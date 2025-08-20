@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:pytorch/pytorch:1.7.0-cuda11.0-cudnn8-runtime
+From:pytorch/pytorch:1.13.1-cuda11.8-cudnn8-runtime
 
 %files
     cli.sh /cli.sh
